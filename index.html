@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LOGIN1</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <div class="div-form">
+                <img src="../../imgs/LogoSample_ByTailorBrands.jpg" alt="">
+                <h2>Crea tu cuenta</h2> 
+                <span>Ingrese su Correo electrónico para registrarte</span>
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Correo electronico">
+                <input type="password" placeholder="Contraseña">
+                <button>Regístrese</button>
+            </div>
+        </div>
+        <div class="form-container sign-in">
+            <div class="div-form">
+                <img src="../../imgs/LogoSample_ByTailorBrands.jpg" alt="">
+                <h2>Iniciar sesión</h2> 
+                <span class="viewF">Ingrese su Correo electrónico</span>
+                <span class="hiddenF">Ingrese su contraseña</span>
+                <input class="viewF" type="email" placeholder="Correo electronico">
+                <input class="hiddenF" type="password" placeholder="Contraseña" >
+                <a href="" class="hiddenF">¿Olvidó su contraseña?</a>
+                <button class="viewF" id="btn-next">Siguiente</button>
+                <button class="hiddenF">Iniciar sesión</button>
+            </div>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bienvenido</h1>
+                    <p>Introduce tu informacion para utilizar nuestro sitio y sus caracteristicas</p>
+                    <button class="hidden" id="login">Iniciar sesión</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Unete a nosotros</h1>
+                    <p>Registra tu informacion para utilizar nuestro sitio</p>
+                    <button class="hidden" id="register">Registrate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
