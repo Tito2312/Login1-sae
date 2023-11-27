@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f5ce703e18.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>LOGIN1</title>
 </head>
@@ -24,8 +25,13 @@
                 <img src="imgs/LogoSample_ByTailorBrands.jpg" alt="">
                 <h2>Iniciar sesión</h2> 
                 <span class="viewF">Ingrese su Correo electrónico</span>
-                <span class="hiddenF">Ingrese su contraseña</span>
-                <input class="viewF" type="email" placeholder="Correo electronico">
+                <div class="back">
+                    <i class="fa-solid fa-chevron-left hiddenF" id="arrowBack"></i>
+                    <span class="hiddenF">Ingrese su contraseña</span>
+                </div>
+                <p class="viewF" id="WrongE"></p>
+                <input class="viewF" type="email" placeholder="Correo electronico" required>
+                <p class="hiddenF" id="spanC"></p>
                 <input class="hiddenF" type="password" placeholder="Contraseña" >
                 <a href="" class="hiddenF">¿Olvidó su contraseña?</a>
                 <button class="viewF" id="btn-next">Siguiente</button>
